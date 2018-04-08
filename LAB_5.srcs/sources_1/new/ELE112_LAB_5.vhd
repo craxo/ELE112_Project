@@ -23,6 +23,7 @@ architecture Behavioral of ELE112_LAB_5 is
   
   SIGNAL TX_register : std_logic_vector (TS-1 downto 0); --Register with data to send.
   SIGNAL S_register : std_logic_vector (TS-1 downto 0); --Shiftregister.
+  SIGNAL SX_register : std_logic_vector (TS-1 downto 0); --Crossed Shiftregister.
   SIGNAL Count : std_logic_vector (N-1 downto 0); --Teller.
   SIGNAL ENCLK : std_logic := '0'; --Enable clock.
   SIGNAL Z : STD_LOGIC := '0'; --Clock Compare.
@@ -123,19 +124,8 @@ SPI_SHIFT_REG:ELE112_shiftlne GENERIC MAP(N => TS)
                     E=>ES,
                     W=>MISO_int,
                     Clock=>SCLK,
-                    --Flip X_L and X_H.
-                    Q(TS-1 downto TS-8) => S_register(TS-9 downto TS-16),
-                    Q(TS-9 downto TS-16) => S_register(TS-1 downto TS-8),
-                    --Flip Y_L and Y_H.
-                    Q(TS-17 downto TS-24) => S_register(TS-25 downto TS-32),
-                    Q(TS-25 downto TS-32) => S_register(TS-17 downto TS-24),
-                    --Flip Z_L and Z_H.
-                    Q(TS-33 downto TS-40) => S_register(TS-41 downto TS-48),
-                    Q(TS-41 downto TS-48) => S_register(TS-33 downto TS-40),
-                    --Flip T_L and T_H.
-                    Q(TS-49 downto TS-56) => S_register(TS-57 downto TS-64),
-                    Q(TS-57 downto TS-64) => S_register(TS-49 downto TS-56)
-                    );   
+                    Q=>S_register);
+                   
     
 PreScaler: ele112_PreScaler
     PORT MAP(clk=>CLK,
@@ -152,7 +142,20 @@ TX_register(TS-1 downto TS-8) <= InstRead;
 TX_register(TS-9 downto TS-16) <= ADDR_X_L_DATA;
 --Set the rest of the shiftregister as Z, high impedance = LOW / 0.
 TX_register(TS-17 downto 0) <= "ZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ";
-S_register
+
+--Flip X_L and X_H.
+SX_register(TS-9 downto TS-16) <= S_register(TS-1 downto TS-8);
+SX_register(TS-1 downto TS-8) <= S_register(TS-9 downto TS-16);
+--Flip Y_L and Y_H.
+SX_register(TS-25 downto TS-32) <= S_register(TS-17 downto TS-24);
+SX_register(TS-17 downto TS-24) <= S_register(TS-25 downto TS-32);
+--Flip Z_L and Z_H.
+SX_register(TS-41 downto TS-48) <= S_register(TS-33 downto TS-40);
+SX_register(TS-33 downto TS-40) <= S_register(TS-41 downto TS-48); 
+--Flip T_L and T_H.
+SX_register(TS-57 downto TS-64) <= S_register(TS-49 downto TS-56);
+SX_register(TS-49 downto TS-56) <= S_register(TS-57 downto TS-64);
+--Set our MOSI to MSB on S_register.
 MOSI <= S_register(TS-1); 
 
 
