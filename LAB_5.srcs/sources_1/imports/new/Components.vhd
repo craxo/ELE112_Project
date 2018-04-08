@@ -28,15 +28,19 @@ COMPONENT dec3to8
          Y : OUT STD_LOGIC_VECTOR(7 downto 0)
          );
 END COMPONENT; 
-COMPONENT ELE112_LAB_5_SPIS
-    Port ( 
-       MODE : in STD_LOGIC_VECTOR (3 downto 0);
-       MOSI : in STD_LOGIC;
-       MISO : out STD_LOGIC;
-       SS : in STD_LOGIC;
-       SCLK : in STD_LOGIC;
-       Reset:in STD_LOGIC;
-       CLK : in STD_LOGIC);
+COMPONENT ELE112_LAB_5
+GENERIC( N : INTEGER :=8; TS : INTEGER :=64);
+    Port ( START : in STD_LOGIC; --Signal to start our SPI.
+           STARTED : inout STD_LOGIC; --LED to display that the circuit is running.
+           DONE : inout STD_LOGIC; --LED to display that the circuit is done.
+           MOSI : out STD_LOGIC; --Master Out Slave In.
+           MISO : in STD_LOGIC; --Master In Slave Out.
+           SS : inout STD_LOGIC; --Slave Select.
+           SCLK : inout STD_LOGIC; --Slave clock.
+           Reset:in STD_LOGIC; --Reset.
+           CLK : in STD_LOGIC; --CLK in from our board.
+           SPI_SCLK_sel : in STD_LOGIC_VECTOR(3 downto 0)
+           );
 END COMPONENT;
 
 COMPONENT ELE112_shiftlne is
