@@ -1,0 +1,21 @@
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 9ec5c2bbfcec493c9bc26b2461348983 --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot ELE112_LAB_5_tb_behav xil_defaultlib.ELE112_LAB_5_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.components
+Compiling architecture behavioral of entity xil_defaultlib.ele112_UpDownCounter [ele112_updowncounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.ELE112_shiftlne [\ELE112_shiftlne(n=64)\]
+Compiling architecture behavioral of entity xil_defaultlib.ele112_PreScaler [ele112_prescaler_default]
+Compiling architecture behavioral of entity xil_defaultlib.ELE112_LAB_5 [ele112_lab_5_default]
+Compiling architecture behavioral of entity xil_defaultlib.ele112_lab_5_tb
+Built simulation snapshot ELE112_LAB_5_tb_behav

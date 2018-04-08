@@ -1,0 +1,19 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/geirj/OneDrive - Universitetet i Agder/Documents/ELE112/LAB_5/LAB_5/LAB_5.sim/sim_1/synth/timing/ELE112_LAB_5_tb_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ELE112_LAB_5
+INFO: [VRFC 10-311] analyzing module ELE112_shiftlne
+INFO: [VRFC 10-311] analyzing module ele112_UpDownCounter
+INFO: [VRFC 10-311] analyzing module ele112_regn
+INFO: [VRFC 10-311] analyzing module ele112_regn_0
+INFO: [VRFC 10-311] analyzing module ele112_regn_1
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geirj/OneDrive - Universitetet i Agder/Documents/ELE112/LAB_5/LAB_5/LAB_5.srcs/sources_1/imports/new/Components.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geirj/OneDrive - Universitetet i Agder/Documents/ELE112/LAB_5/LAB_5/LAB_5.srcs/sources_1/imports/new/ELE112_LAB_5_SPIS.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ELE112_LAB_5_SPIS
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geirj/OneDrive - Universitetet i Agder/Documents/ELE112/LAB_5/LAB_5/LAB_5.srcs/sources_1/new/ELE112_shiftlne.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ELE112_shiftlne
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geirj/OneDrive - Universitetet i Agder/Documents/ELE112/LAB_5/LAB_5/LAB_5.srcs/sources_1/imports/new/UP_DOWN_CONTER.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ele112_UpDownCounter
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geirj/OneDrive - Universitetet i Agder/Documents/ELE112/LAB_5/LAB_5/LAB_5.srcs/sources_1/imports/new/ele112_regn.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ele112_regn
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/geirj/OneDrive - Universitetet i Agder/Documents/ELE112/LAB_5/LAB_5/LAB_5.srcs/sim_1/new/ELE112_LAB_5_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity ELE112_LAB_5_tb

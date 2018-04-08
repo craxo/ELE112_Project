@@ -1,0 +1,15 @@
+0.6
+2017.2
+Jun 15 2017
+18:52:51
+C:/Users/fh95/ELE112/Project_Spring/LAB_5.ip_user_files/bd/design_1/hdl/design_1.vhd,1520846191,vhdl,,,,,,,,,,,,
+C:/Users/fh95/ELE112/Project_Spring/LAB_5.srcs/sim_1/new/ELE112_LAB_5_tb.vhd,1523187154,vhdl,,,,ele112_lab_5_tb,,,,,,,,
+C:/Users/fh95/ELE112/Project_Spring/LAB_5.srcs/sources_1/imports/new/Components.vhd,1520861947,vhdl,C:/Users/fh95/ELE112/Project_Spring/LAB_5.srcs/sim_1/new/ELE112_LAB_5_tb.vhd;C:/Users/fh95/ELE112/Project_Spring/LAB_5.srcs/sources_1/imports/new/ELE112_LAB_5_SPIS.vhd;C:/Users/fh95/ELE112/Project_Spring/LAB_5.srcs/sources_1/new/ELE112_LAB_5.vhd,,,components,,,,,,,,
+C:/Users/fh95/ELE112/Project_Spring/LAB_5.srcs/sources_1/imports/new/ELE112_LAB_5_SPIS.vhd,1517403957,vhdl,,,,ele112_lab_5_spis,,,,,,,,
+C:/Users/fh95/ELE112/Project_Spring/LAB_5.srcs/sources_1/imports/new/UP_DOWN_CONTER.vhd,1516797212,vhdl,,,,ele112_updowncounter,,,,,,,,
+C:/Users/fh95/ELE112/Project_Spring/LAB_5.srcs/sources_1/imports/new/ele112_PreScaler.vhd,1449225522,vhdl,,,,ele112_prescaler,,,,,,,,
+C:/Users/fh95/ELE112/Project_Spring/LAB_5.srcs/sources_1/imports/new/ele112_regn.vhd,1516791352,vhdl,,,,ele112_regn,,,,,,,,
+C:/Users/fh95/ELE112/Project_Spring/LAB_5.srcs/sources_1/new/ELE112_LAB_5.vhd,1523186831,vhdl,,,,ele112_lab_5,,,,,,,,
+C:/Users/fh95/ELE112/Project_Spring/LAB_5.srcs/sources_1/new/ELE112_shiftlne.vhd,1516714296,vhdl,,,,ele112_shiftlne,,,,,,,,
+C:/Users/fh95/ELE112/Project_Spring/LAB_5.srcs/sources_1/new/dec3to8.vhd,1520866498,vhdl,,,,dec3to8,,,,,,,,
+C:/Users/fh95/ELE112/Project_Spring/LAB_5.srcs/sources_1/new/ele112_trin.vhd,1520544736,vhdl,,,,ele112_trin,,,,,,,,

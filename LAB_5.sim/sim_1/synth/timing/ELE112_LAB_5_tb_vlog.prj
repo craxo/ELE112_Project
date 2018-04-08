@@ -1,0 +1,5 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "ELE112_LAB_5_tb_time_synth.v"
+
+# Do not sort compile order
+nosort

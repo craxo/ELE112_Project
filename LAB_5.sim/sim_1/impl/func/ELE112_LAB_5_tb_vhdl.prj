@@ -1,0 +1,6 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "ELE112_LAB_5_tb_func_impl.vhd"
+vhdl xil_defaultlib  "../../../../LAB_5.srcs/sim_1/new/ELE112_LAB_5_tb.vhd"
+
+# Do not sort compile order
+nosort

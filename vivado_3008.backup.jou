@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Thu Dec 01 13:00:48 2016
+# Process ID: 3008
+# Current directory: C:/Users/geirj/OneDrive - Universitetet i Agder/Documents/ELE112/LAB_5/LAB_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9504 C:\Users\geirj\OneDrive - Universitetet i Agder\Documents\ELE112\LAB_5\LAB_5\LAB_5.xpr
+# Log file: C:/Users/geirj/OneDrive - Universitetet i Agder/Documents/ELE112/LAB_5/LAB_5/vivado.log
+# Journal file: C:/Users/geirj/OneDrive - Universitetet i Agder/Documents/ELE112/LAB_5/LAB_5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/geirj/OneDrive - Universitetet i Agder/Documents/ELE112/LAB_5/LAB_5/LAB_5.xpr}
+update_compile_order -fileset sources_1

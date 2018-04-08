@@ -1,0 +1,460 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Mon Jan 22 08:33:24 2018
+# Process ID: 10720
+# Current directory: C:/Users/geirj/OneDrive - Universitetet i Agder/Documents/ELE112/LAB_5/LAB_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3036 C:\Users\geirj\OneDrive - Universitetet i Agder\Documents\ELE112\LAB_5\LAB_5\LAB_5.xpr
+# Log file: C:/Users/geirj/OneDrive - Universitetet i Agder/Documents/ELE112/LAB_5/LAB_5/vivado.log
+# Journal file: C:/Users/geirj/OneDrive - Universitetet i Agder/Documents/ELE112/LAB_5/LAB_5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/geirj/OneDrive - Universitetet i Agder/Documents/ELE112/LAB_5/LAB_5/LAB_5.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+restart
+run 300 us
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+restart
+run 300 us
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+restart
+run 300 us
+close_sim
+launch_simulation
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+restart
+run 300 us
+restart
+run 300 us
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+run 300 us
+run 300 us
+run 300 us
+restart
+run 300 us
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+restart
+run 300 us
+restart
+run 300 us
+restart
+run 300 us
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+run 300 us
+close_sim
+launch_simulation
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+restart
+run 300 us
+run 300 us
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+restart
+run 300 us
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+restart
+run 300 us
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+restart
+run 300 us
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+restart
+run 300 us
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+run 300 us
+run 300 us
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+restart
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+restart
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+restart
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+restart
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+restart
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+restart
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+restart
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+restart
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+restart
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+restart
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+restart
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+run 300 ns
+run 300 ns
+run 300 ns
+restart
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+restart
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+restart
+run 300 ns
+run 300 ns
+restart
+run 300 ns
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+restart
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+restart
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 300 ns
+run 3000 ns
+run 3000 ns
+synth_design -rtl -name rtl_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_design
+open_run impl_1
+launch_simulation -mode post-implementation -type timing
+source ELE112_LAB_5_tb.tcl
+run 3000 ns
+run 3000 ns
+run 3000 ns
+run 3000 ns
+restart
+run 3000 ns
+restart
+run 3000 ns
+run 3000 ns
+current_sim simulation_23
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+run 3000 ns
+run 3000 ns
+run 3000 ns
+run 3000 ns
+restart
+run 3000 ns
+run 3000 ns
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+restart
+run 3000 ns
+run 3000 ns
+run 3000 ns
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+current_sim simulation_24
+close_sim
+launch_simulation -mode post-implementation -type timing
+source ELE112_LAB_5_tb.tcl
+close_sim
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_design
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1
+launch_simulation -mode post-implementation -type timing
+source ELE112_LAB_5_tb.tcl
+run 3000 ns
+run 3000 ns
+run 3000 ns
+run 3000 ns
+restart
+run 3000 ns
+run 3000 ns
+restart
+run 3000 ns
+run 3000 ns
+run 3000 ns
+run 3000 ns
+close_sim

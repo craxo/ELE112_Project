@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Thu Feb 15 17:32:58 2018
+# Process ID: 62024
+# Current directory: C:/Users/fh95/ELE112/GEIR_LAB_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent61912 C:\Users\fh95\ELE112\GEIR_LAB_5\LAB_5.xpr
+# Log file: C:/Users/fh95/ELE112/GEIR_LAB_5/vivado.log
+# Journal file: C:/Users/fh95/ELE112/GEIR_LAB_5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/fh95/ELE112/GEIR_LAB_5/LAB_5.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/geirj/OneDrive - Universitetet i Agder/Documents/ELE112/LAB_5/LAB_5' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2017.2/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 15 17:34:11 2018...

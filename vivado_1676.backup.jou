@@ -1,0 +1,216 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Tue Jan 23 07:10:52 2018
+# Process ID: 1676
+# Current directory: C:/Users/geirj/OneDrive - Universitetet i Agder/Documents/ELE112/LAB_5/LAB_5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11648 C:\Users\geirj\OneDrive - Universitetet i Agder\Documents\ELE112\LAB_5\LAB_5\LAB_5.xpr
+# Log file: C:/Users/geirj/OneDrive - Universitetet i Agder/Documents/ELE112/LAB_5/LAB_5/vivado.log
+# Journal file: C:/Users/geirj/OneDrive - Universitetet i Agder/Documents/ELE112/LAB_5/LAB_5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/geirj/OneDrive - Universitetet i Agder/Documents/ELE112/LAB_5/LAB_5/LAB_5.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+run 300 us
+run 300 us
+run 300 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_simulation -mode post-implementation -type functional
+source ELE112_LAB_5_tb.tcl
+run 300 us
+run 300 us
+launch_simulation -mode post-implementation -type timing
+source ELE112_LAB_5_tb.tcl
+run 300 us
+close_sim
+current_sim simulation_2
+close_sim
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+run 300 us
+run 300 us
+run 300 us
+run 300 us
+run 300 us
+run 300 us
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+run 300 us
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+restart
+run 300 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation -mode post-synthesis -type timing
+source ELE112_LAB_5_tb.tcl
+run 300 us
+run 300 us
+run 300 us
+run 300 us
+restart
+run 300 us
+restart
+run 300 us
+restart
+run 300 us
+close_sim
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+run 300 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+current_design impl_1
+close_design
+launch_simulation -mode post-implementation -type functional
+source ELE112_LAB_5_tb.tcl
+run 300 us
+close_sim
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+run 300 us
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+run 300 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+refresh_design
+launch_simulation -mode post-implementation -type timing
+source ELE112_LAB_5_tb.tcl
+run 300 us
+close_sim
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+run 300 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+refresh_design
+launch_simulation -mode post-implementation -type timing
+source ELE112_LAB_5_tb.tcl
+run 300 us
+close_sim
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+run 300 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+refresh_design
+launch_simulation -mode post-implementation -type timing
+source ELE112_LAB_5_tb.tcl
+run 300 us
+close_sim
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+run 300 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+refresh_design
+launch_simulation -mode post-implementation -type timing
+source ELE112_LAB_5_tb.tcl
+run 300 us
+current_sim simulation_17
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+run 300 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+current_sim simulation_18
+close_sim
+close_design
+launch_simulation -mode post-implementation -type timing
+source ELE112_LAB_5_tb.tcl
+run 300 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+close_sim
+close_design
+launch_simulation -mode post-implementation -type timing
+source ELE112_LAB_5_tb.tcl
+run 300 us
+current_sim simulation_19
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+run 300 us
+close_sim
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+refresh_design
+launch_simulation -mode post-implementation -type timing
+source ELE112_LAB_5_tb.tcl
+run 300 us
+launch_simulation
+launch_simulation
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+run 300 us
+close_sim
+launch_simulation
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+run 300 us
+restart
+run 300 us
+close_sim
+launch_simulation
+source ELE112_LAB_5_tb.tcl
+run 300 us
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+current_sim simulation_23
+close_sim
+close_design
+launch_simulation -mode post-implementation -type timing
+source ELE112_LAB_5_tb.tcl
+run 300 us
+close_sim
+close_sim

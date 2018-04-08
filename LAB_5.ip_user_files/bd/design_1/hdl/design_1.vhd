@@ -1,0 +1,9 @@
+--Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------
+--Tool Version: Vivado v.2017.2 (win64) Build 1909853 Thu Jun 15 18:39:09 MDT 2017
+--Date        : Mon Mar 12 10:16:31 2018
+--Host        : Stationary running 64-bit major release  (build 9200)
+--Command     : generate_target design_1.bd
+--Design      : design_1
+--Purpose     : IP block netlist
+----------------------------------------------------------------------------------

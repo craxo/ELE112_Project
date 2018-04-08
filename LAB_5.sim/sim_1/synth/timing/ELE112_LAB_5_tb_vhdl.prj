@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  "../../../../LAB_5.srcs/sources_1/imports/new/Components.vhd"
+vhdl xil_defaultlib  "../../../../LAB_5.srcs/sources_1/imports/new/ELE112_LAB_5_SPIS.vhd"
+vhdl xil_defaultlib  "../../../../LAB_5.srcs/sources_1/new/ELE112_shiftlne.vhd"
+vhdl xil_defaultlib  "../../../../LAB_5.srcs/sources_1/imports/new/UP_DOWN_CONTER.vhd"
+vhdl xil_defaultlib  "../../../../LAB_5.srcs/sources_1/imports/new/ele112_regn.vhd"
+vhdl xil_defaultlib  "../../../../LAB_5.srcs/sim_1/new/ELE112_LAB_5_tb.vhd"
+
+# Do not sort compile order
+nosort

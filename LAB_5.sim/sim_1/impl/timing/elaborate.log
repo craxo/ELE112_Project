@@ -1,0 +1,48 @@
+Vivado Simulator 2017.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o/xelab.exe -wto 9ec5c2bbfcec493c9bc26b2461348983 --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot ELE112_LAB_5_tb_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.ELE112_LAB_5_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "ELE112_LAB_5_tb_time_impl.sdf", for root module "ELE112_LAB_5_tb/UUT".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "ELE112_LAB_5_tb_time_impl.sdf", for root module "ELE112_LAB_5_tb/UUT".
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package xil_defaultlib.components
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.ele112_UpDownCounter [ele112_updowncounter_default]
+Compiling architecture behavioral of entity xil_defaultlib.ELE112_shiftlne [\ELE112_shiftlne(n=8)\]
+Compiling architecture behavioral of entity xil_defaultlib.ELE112_LAB_5_SPIS [ele112_lab_5_spis_default]
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.LUT4
+Compiling module simprims_ver.x_lut1_mux2
+Compiling module simprims_ver.LUT1
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module simprims_ver.x_lut3_mux8
+Compiling module simprims_ver.LUT3
+Compiling module simprims_ver.LUT5
+Compiling module simprims_ver.FDCE_default
+Compiling module xil_defaultlib.ele112_UpDownCounter
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.FDRE_default
+Compiling module simprims_ver.FDCE(IS_C_INVERTED=1'b1)
+Compiling module simprims_ver.FDPE(IS_C_INVERTED=1'b1)
+Compiling module simprims_ver.latchsre_ldce
+Compiling module simprims_ver.LDCE
+Compiling module xil_defaultlib.ELE112_shiftlne
+Compiling module xil_defaultlib.ele112_regn
+Compiling module xil_defaultlib.ele112_regn_0
+Compiling module xil_defaultlib.ele112_regn_1
+Compiling module xil_defaultlib.ELE112_LAB_5
+Compiling architecture behavioral of entity xil_defaultlib.ele112_lab_5_tb
+Built simulation snapshot ELE112_LAB_5_tb_time_impl
